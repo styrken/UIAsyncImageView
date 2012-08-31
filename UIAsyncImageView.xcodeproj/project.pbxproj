@@ -16,6 +16,8 @@
 		3B636B4115F0E00200B4A86F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B636B4015F0E00200B4A86F /* ViewController.m */; };
 		3B636B4415F0E00200B4A86F /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B636B4215F0E00200B4A86F /* ViewController_iPhone.xib */; };
 		3B636B4715F0E00200B4A86F /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B636B4515F0E00200B4A86F /* ViewController_iPad.xib */; };
+		3B636B5915F0E09600B4A86F /* AsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B636B5615F0E09600B4A86F /* AsyncImageView.m */; };
+		3B636B5A15F0E09600B4A86F /* AsyncUIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B636B5815F0E09600B4A86F /* AsyncUIImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,10 @@
 		3B636B4015F0E00200B4A86F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3B636B4315F0E00200B4A86F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		3B636B4615F0E00200B4A86F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		3B636B5515F0E09600B4A86F /* AsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncImageView.h; sourceTree = "<group>"; };
+		3B636B5615F0E09600B4A86F /* AsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncImageView.m; sourceTree = "<group>"; };
+		3B636B5715F0E09600B4A86F /* AsyncUIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncUIImage.h; sourceTree = "<group>"; };
+		3B636B5815F0E09600B4A86F /* AsyncUIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncUIImage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,13 +85,9 @@
 		3B636B3315F0E00200B4A86F /* UIAsyncImageView */ = {
 			isa = PBXGroup;
 			children = (
-				3B636B3C15F0E00200B4A86F /* AppDelegate.h */,
-				3B636B3D15F0E00200B4A86F /* AppDelegate.m */,
-				3B636B3F15F0E00200B4A86F /* ViewController.h */,
-				3B636B4015F0E00200B4A86F /* ViewController.m */,
-				3B636B4215F0E00200B4A86F /* ViewController_iPhone.xib */,
-				3B636B4515F0E00200B4A86F /* ViewController_iPad.xib */,
 				3B636B3415F0E00200B4A86F /* Supporting Files */,
+				3B636B5B15F0E09B00B4A86F /* App */,
+				3B636B4E15F0E05C00B4A86F /* AsyncImageView */,
 			);
 			path = UIAsyncImageView;
 			sourceTree = "<group>";
@@ -99,6 +101,30 @@
 				3B636B3B15F0E00200B4A86F /* UIAsyncImageView-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B636B4E15F0E05C00B4A86F /* AsyncImageView */ = {
+			isa = PBXGroup;
+			children = (
+				3B636B5515F0E09600B4A86F /* AsyncImageView.h */,
+				3B636B5615F0E09600B4A86F /* AsyncImageView.m */,
+				3B636B5715F0E09600B4A86F /* AsyncUIImage.h */,
+				3B636B5815F0E09600B4A86F /* AsyncUIImage.m */,
+			);
+			path = AsyncImageView;
+			sourceTree = "<group>";
+		};
+		3B636B5B15F0E09B00B4A86F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3B636B3C15F0E00200B4A86F /* AppDelegate.h */,
+				3B636B3D15F0E00200B4A86F /* AppDelegate.m */,
+				3B636B3F15F0E00200B4A86F /* ViewController.h */,
+				3B636B4015F0E00200B4A86F /* ViewController.m */,
+				3B636B4215F0E00200B4A86F /* ViewController_iPhone.xib */,
+				3B636B4515F0E00200B4A86F /* ViewController_iPad.xib */,
+			);
+			name = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +194,8 @@
 				3B636B3A15F0E00200B4A86F /* main.m in Sources */,
 				3B636B3E15F0E00200B4A86F /* AppDelegate.m in Sources */,
 				3B636B4115F0E00200B4A86F /* ViewController.m in Sources */,
+				3B636B5915F0E09600B4A86F /* AsyncImageView.m in Sources */,
+				3B636B5A15F0E09600B4A86F /* AsyncUIImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
